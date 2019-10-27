@@ -21,8 +21,7 @@ const images = [
 function createGallery(arr) {
   return arr.map(item => {
     const element = document.createElement("li");
-    // element.classList.add('gallery-list-item');
-    element.className = 'gallery-list-item';
+    element.classList.add('gallery-list-item');
     element.insertAdjacentHTML(
       "beforeend",
       `<img src="${item.url}" alt="${item.alt}">`

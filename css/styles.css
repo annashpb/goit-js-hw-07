@@ -3,3 +3,23 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.gallery-list-item {
+    list-style: none;
+}
+
+.gallery-list-item img {
+    max-width: 500px;
+}
+
+#validation-input {
+    border: 3px solid #bdbdbd;
+  }
+  
+  #validation-input.valid {
+    border-color: #4caf50;
+  }
+  
+  #validation-input.invalid {
+    border-color: #f44336;
+  }

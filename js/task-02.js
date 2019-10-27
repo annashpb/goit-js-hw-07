@@ -11,7 +11,7 @@ const ingredients = [
 
 function createListItems(arr) {
   return arr.map(item => {
-    const element = document.createElement("i");
+    const element = document.createElement("li");
     element.textContent = item;
     return element;
   });
